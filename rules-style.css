@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
+
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(70, 100,600);/*#24272E;*/
+    font-family:- Asap, sans-serif;
+    width:100%;
+}
+
+div #intro{
+    color:black;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 30px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h2{
+    color: white;
+    margin: 40px auto 20px 30px;
+}
+
+img{
+    height: 80px;
+    width: 200px;
+    position: relative;
+}
+
+
+#rules p{
+    font-weight: bold;
+    margin: auto 40px 20px 40px;
+    font-size: 18px;
+}
+
+ul{
+    margin: -10px 80px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+li{
+    margin: 7px auto;
+}
+
+a>h3{
+    margin-top: 40px;
+}
+
+a{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#rules > h2{
+    margin-top: -5px;
+}

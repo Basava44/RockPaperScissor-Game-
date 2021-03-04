@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
+
+        html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            transition: 1s;
+        }
+        h1:hover{
+            background-color: black;
+            color: white;
+        }
+        body{
+            background-color: rgb(70, 100,600);
+            font-family: Asap, sans-serif;
+            width:100%;
+        }
+        a{
+            color: white;
+            transition: 0.3s;
+            text-align: center;
+            
+        }       
+
+        a:hover{
+            color: black;
+        }
+
+        a:visited{
+            text-decoration: none;
+        }
+
+        a:link{
+            text-decoration: none;
+        }
+        #link{
+            text-align: center;
+            margin-top: 100px;
+        }
+        #rrr{
+            text-align:center;
+            color:white;
+            margin-top:100px;
+         }	
+    </style>
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+    <div id="rrr">
+    <h2 id="result">Congratulations you won the game</h2>
+    </div>
+    <div id="link"><a href="index.html">Click here to Play again</a></div>
+<script>
+			
+            function textToAudio() {
+                let msg =document.getElementById(result).innerHTML;
+                
+                let speech = new SpeechSynthesisUtterance();
+                speech.lang = "en-US";
+                
+                speech.text = msg;
+                speech.volume = 1;
+                speech.rate = 1;
+                speech.pitch = 1;
+                
+                window.speechSynthesis.speak(speech);
+            }
+		</script>
+</body>
+</html>

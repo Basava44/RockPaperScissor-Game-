@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
+
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(70, 100,600);/*#24272E;*/
+    font-family: Asap, sans-serif;
+    width:100%;
+}
+
+#heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    transition: 1s;
+/*    animation:head 25s infinite;*/
+}
+
+#heading:hover{
+    background-color:rgb(1, 1, 0);
+    color: white;
+}
+
+@keyframes head{
+    0%    {background-color: rgb(10, 100, 850); color: white;}
+    25%   {background-color: white; color:rgb(10, 100, 850);}
+    50%   {background-color: rgb(10, 100, 850); color: white;}
+    75%   {background-color: white; color:rgb(10, 100, 850);}
+    100%  {background-color: rgb(10, 100, 850); color: white;}
+}
+
+
+img{
+    height: 85px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin:auto 20px;
+    padding: 8px;
+}
+
+
+
+.score-box{
+    margin:20px auto;
+    border:3px solid white;
+    border-radius: 4px;
+    padding: 15px 20px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.1s;
+    position:relative;
+}
+
+.score-box:hover{
+    border:3px solid black;
+}
+
+span{
+    font-size: 46px;
+    color:white;
+}
+
+.badge{
+    background-color:whitesmoke;
+    width: 60px;
+    text-align:centre;
+    padding: 1px;
+    color: black;
+    transition:0.1s;
+}
+
+.badge:hover{
+    color:white;
+    background-color:black;
+}
+
+#colon{
+    font: bold;
+}
+
+#user-label{
+    font-size: 20px;
+    position: absolute;
+    top:30px;
+    left:-30px;
+}
+
+#comp-label{
+    font-size: 20px;
+    position: absolute;
+    top:30;
+    right:-30px;
+}
+
+.result{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.images{
+    display: flex;
+    align-items:center;
+    position:relative;
+    margin-top:25px;
+    justify-content:center;
+}
+
+.action-message{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    transition: 0.3s;
+   
+}
+
+.action-message:hover{
+    color: black;
+}
+
+#rock{
+    transition: 0.3s;
+    
+}
+
+#rock:hover{
+    background-color:white;
+    /*border: 10px solid whitesmoke;*/
+}
+
+#paper{
+    transition: 0.3s;
+    transform: rotate(-90deg);
+    
+}
+
+#paper:hover{
+    background-color:white;
+}
+
+#paper-name:hover{
+    color: black;
+    font-weight: bold;  
+}
+
+#scissor-name:hover{
+    color: black;
+    font-weight: bold;
+}
+
+#rock-name:hover{
+    color: black;
+    font-weight: bold;
+}
+
+#scissor{
+    transition: 0.3s;
+    
+}
+
+#scissor:hover{
+    background-color:white;
+}
+
+.names{
+text-align: center;
+color: white;
+}
+
+.images p{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+div #paper-name{
+    
+    transition: 0.5s;
+}
+
+div #rock-name{
+    
+    transition: 0.5s;
+}
+
+div #scissor-name{
+    
+    transition: 0.5s;
+}
+
+.green-glow{
+    border:2px solid white;
+    border-box:0 0 10px white;
+}
+
+#again{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    font-style: Asap, sans-serif;
+    font-weight: none;
+}
+
+a{
+    color: white;
+    transition: 0.3s;
+    margin: 20px 20px;
+}
+
+a:hover{
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#contact{
+    color: white;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 40px;
+}
